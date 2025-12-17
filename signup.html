@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte - ZENO IA</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #c700ff;
+        }
+
+        h1 {
+            font-size: 4em;
+            text-shadow:
+                0 0 5px #c700ff,
+                0 0 10px #c700ff,
+                0 0 20px #c700ff,
+                0 0 40px #ff00ff;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        input {
+            background-color: #000;
+            border: 2px solid #c700ff;
+            color: #c700ff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: 0 0 10px #c700ff;
+        }
+
+        button {
+            background-color: #000;
+            border: 2px solid #c700ff;
+            color: #c700ff;
+            padding: 12px;
+            margin-top: 15px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #c700ff;
+            color: #000;
+            box-shadow: 0 0 20px #c700ff;
+        }
+
+        a {
+            color: #c700ff;
+            margin-top: 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px #c700ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Créer un compte</h1>
+    <form action="#" method="POST">
+        <input type="text" placeholder="Nom d'utilisateur" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Mot de passe" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+    <a href="login.html">Déjà un compte ? Se connecter</a>
+</body>
+</html>
